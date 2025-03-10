@@ -2,45 +2,39 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 4,
+    "passes": 5,
     "pending": 0,
-    "failures": 1,
-    "start": "2025-03-10T07:09:41.433Z",
-    "end": "2025-03-10T07:09:42.050Z",
-    "duration": 617
+    "failures": 0,
+    "start": "2025-03-10T07:16:46.916Z",
+    "end": "2025-03-10T07:16:47.676Z",
+    "duration": 760
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'bob' to equal 'BOB'",
-        "showDiff": true,
-        "actual": "bob",
-        "expected": "BOB",
-        "stack": "AssertionError: expected 'bob' to equal 'BOB'\n    at Context.<anonymous> (test/indexTest.js:16:38)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -53,40 +47,33 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "modifies the customerName variable",
-      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'bob' to equal 'BOB'",
-        "showDiff": true,
-        "actual": "bob",
-        "expected": "BOB",
-        "stack": "AssertionError: expected 'bob' to equal 'BOB'\n    at Context.<anonymous> (test/indexTest.js:16:38)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
